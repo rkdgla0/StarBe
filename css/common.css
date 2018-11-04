@@ -1,0 +1,43 @@
+.titleBar{
+	background-color:rgb(52, 144, 219);
+	padding:10px;
+}
+
+.titleBarLeft{
+	padding:0px;
+}
+
+.titleBarRight{
+	padding-right:20px;
+}
+
+.titleBarRight > div > div{
+	padding:0px;
+	text-overflow:clip;
+}
+
+.titleBarRight > div > div > button{
+	background:transparent;
+	outline:none;
+}
+
+.BoxChecked{
+	border:1px solid rgba(255, 255, 255, 1);
+	color:white;
+}
+
+.BoxUnChecked{
+	border:0px;
+	color:black;
+}
+
+.infoBar{
+color:white;
+	background-color:rgba(0, 0, 0, 1);
+	padding:10px;
+}
+
+.titleBarRight > div > div > div :hover{
+	color:rgba(0, 0, 0, 1);
+		background-color:white;
+}
